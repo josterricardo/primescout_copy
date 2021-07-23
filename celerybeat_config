@@ -1,0 +1,30 @@
+# Absolute or relative path to the 'celery' command:
+CELERY_BIN="/home/ubuntu/prime_scout/scout/bin/celery"
+
+# App instance to use
+# comment out this line if you don't use an app
+CELERY_APP="PrimeScout"
+
+
+# Where to chdir at start.
+CELERYBEAT_CHDIR="/home/ubuntu/prime_scout/PrimeScout"
+
+# Extra arguments to celerybeat
+# CELERYBEAT_OPTS="--schedule=/var/run/celery/celerybeat-schedule"
+
+# - %n will be replaced with the first part of the nodename.
+# - %I will be replaced with the current child process index
+#   and is important when using the prefork pool to avoid race conditions.
+
+CELERYBEAT_LOG_LEVEL="DEBUG"
+
+# you may wish to add these options for Celery Beat
+CELERYBEAT_PID_FILE="/var/run/celery/beat.pid"
+CELERYBEAT_LOG_FILE="/var/log/celery/beat.log"
+
+# Workers should run as an unprivileged user.
+#   You need to create this user manually (or you can choose
+#   a user/group combination that already exists (e.g., nobody).
+CELERYBEAT_USER="celery"
+CELERYBEAT_GROUP="celery"
+CELERY_CREATE_DIRS=1

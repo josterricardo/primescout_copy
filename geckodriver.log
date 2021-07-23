@@ -1,0 +1,10 @@
+1618362717366	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "user-agent=Mozilla/5.0 (Windows NT 5.1; rv:22.0) Gecko/20100101 Firefox/31.0" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Jtiwele4syPM"
+1618362720839	Marionette	INFO	Listening on port 43193
+1618362720947	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://gzip-resources.aws.alkosto.com/skin/frontend/enterprise/default/js/alkosto-rwd/alkosto-rwd.js?v=0.0.286, line 280: unreachable code after return statement
+JavaScript warning: https://www.alkosto.com/electro/neveras/neveras, line 8307: unreachable code after return statement
+JavaScript warning: https://www.alkosto.com/electro/neveras/neveras, line 8343: unreachable code after return statement
+JavaScript warning: https://www.alkosto.com/electro/neveras/neveras, line 8343: unreachable code after return statement
+JavaScript warning: https://www.alkosto.com/electro/neveras/neveras line 46 > injectedScript, line 43: WebGL context was lost.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1618363304518	Marionette	INFO	Stopped listening on port 43193

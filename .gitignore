@@ -1,0 +1,17 @@
+# Folders
+venv
+
+# migrations
+__pycache__
+
+logs
+
+# DB
+*.sqlite3
+
+# media folder
+media
+
+# Editors.
+.idea
+.vscode
